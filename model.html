@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="src/icon/iconfont.css">
+</head>
+<body>
+    <div class="a4">
+        <div class="left">
+            <div class="info">
+                <img src="src/img/证件照.jpg" height="406" width="333"/>
+                <h3>张泽培</h3>
+                <p>求职意向/WEB前端开发</p>
+            </div>
+            <div class="dec">
+                <div class="content">
+                    <div class="myself">
+                        <h3>自我评价</h3>
+                        <p>为人和睦,适应力强；
+                            学习能力强 , 思路清晰 , 乐于钻研解决问题；
+                            能快速地融入 , 凝聚团队 , 团队意识强；
+                            良好的表达与善于沟通能力，积极主动，对工作尽心尽责</p>
+
+                        <ul>
+                            <h3>个人信息</h3>
+                            <li>
+                                <span class="iconfont icon-nianling"></span><p> 年     龄：  23</p>
+                            </li>
+                            <li>
+                                <span class="iconfont icon-dizhi"></span><p> 地址 ： 深圳市宝安区</p>
+                            </li>
+                            <li>
+                                <span class="iconfont icon-weibiaoti-"></span><p> 电 话 ： 13145852187</p>
+                            </li>
+                            <li>
+                                <span class="iconfont icon-tubiao209"></span><p>邮箱：1749478071@qq.com </p>
+                            </li>
+                            <li>
+                                <span class="iconfont icon-zhuanyemingcheng"></span><p> 专业：物联网应用技术</p>
+                            </li>
+                            <li>
+                                <span class="iconfont icon-xuexiaomingcheng"></span><p> 学校：深圳职业技术学院</p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <h3>软件技能</h3>
+                            <li><div data-text="html">html</div></li>
+                            <li><div data-text="css">css</div></li>
+                            <li><div data-text="js">js</div></li>
+                            <li><div data-text="vue">vue</div></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bg">
+
+                </div>
+            </div>
+        </div>
+        <div class="rightbox">
+            <div class="right">
+                <div class="workexp">
+                    <ul>
+                        <span class="iconfont icon-gongzuotai"></span><h3> 工作经验 work experience</h3>
+                        <li>
+                            <p>深圳天创息壤网络科技有限公司</p>
+                            <p>网页设计工程师</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="proxep">
+                    <ul>
+                        <span class="iconfont icon-xiangmu"></span><h3> 项目经验 project experience</h3>
+                        <li>
+                            <p>网上商城《通兑全城》</p>
+                        </li>
+                        <li>
+                            <p>通兑全城 后台</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <ul>
+                        <span class="iconfont icon-gongju"></span><h3> 职业技能 work skills</h3>
+                        <li>
+                            网页制作，熟悉Java，C#，Html，Js，Css，JQuery，Webpack，Ps等
+                        </li>
+                        <li>
+                            熟练掌握Sublime，Eclipse，Visual studio，Android studio等开发工具，及fiddler等调试工具
+                        </li>
+                        <li>
+                            熟悉JQuery，React，EasyUI，Bootstrap等框架
+                        </li>
+                        <li>
+                            熟悉面向对象思想，了解封装，继承，多态。熟悉常用的设计模式，如单例模式，工厂模式等
+                        </li>
+                    </ul>
+                </div>
+                <div class="hobbys">
+                    <ul>
+                        <span class="iconfont icon-ganxingqu"></span><h3> 兴趣爱好 hobbys</h3>
+                    </ul>
+                    <div class="list">
+                        <span class="iconfont icon-PingPong"></span>
+                        <span class="iconfont icon-changge"></span>
+                        <span class="iconfont icon-kefu"></span>
+                        <span class="iconfont icon-shu"></span>
+                        <span class="iconfont icon-dianying"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<style>
+
+    html,body{
+        background: #76a665;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    *{
+
+    }
+    .a4{
+        height: calc(297px*4);
+        width: calc(210px*4);
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .a4 .left{
+
+        height: 100%;
+        width: 45%;
+        position: relative;
+        overflow: hidden;
+    }
+    .a4 .left .info{
+        height: 30%;
+        --height: height;
+
+        width: 100%;
+        display: flex;
+        flex-flow: wrap;
+
+    }
+    .a4 .left .dec{
+        position: absolute;
+        top: 42%;
+        width: 90%;
+        height: 70%;
+
+
+        color: white;
+    }
+    .a4 .left .dec .bg{
+        position: absolute;
+        top: -10%;
+        width: 100%;
+        height: 100%;
+        background: dimgray;
+        border-radius: 10px;
+        transform: skewY(15deg);
+        z-index: 0;
+    }
+    .a4 .left .dec .content{
+        position: absolute;
+        top: -10%;
+        z-index: 100;
+        font-size: 12px;
+    }
+    .a4 .left .dec .content *{
+        padding: 5px;
+    }
+    .a4 .left .dec .content .myself span{
+        border-radius: 50%;
+        display: inline;
+        border: solid 1px white;
+
+    }
+    .a4 .left .dec .content .myself li{
+        margin: 1.5em;
+        list-style-type: none;
+    }
+    .a4 .left .dec .content .myself p{
+        display: inline;
+    }
+    .a4 .left .dec .content .myself ul li div{
+        height: 1em;
+        width: 100%;
+        border-radius: 2px;
+        border: solid 1px white;
+        position: relative;
+    }
+    .a4 .left .dec .content .myself ul li div::before{
+        content: attr(data-text);
+        position: absolute;
+        top: -2em;
+    }
+    .a4 .left .dec .content .myself ul li div::after{
+        position: absolute;
+        content: '';
+        height: 2em;
+        top: 0;
+        left: 0;
+
+        background: #fff;
+    }
+    .a4 .left .dec .content .myself ul li:nth-child(2) div::after{
+        width: 90%;
+    }
+    .a4 .left .dec .content .myself ul li:nth-child(3) div::after{
+        width: 75%;
+    }
+    .a4 .left .dec .content .myself ul li:nth-child(4) div::after{
+        width: 80%;
+    }
+    .a4 .left .dec .content .myself ul li:nth-child(5) div::after{
+        width: 60%;
+    }
+    .a4 .left .info *{
+        width: 100%;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .a4 .left .info img{
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+    }
+    .a4 .rightbox{
+        width: 55%;
+    }
+    .a4 .right{
+
+        height: 100%;
+        width: 100%;
+        padding: 5px;
+        color: skyblue;
+
+
+    }
+    .a4 .right *{
+        margin: 20px 5px 0 5px;
+        padding: 5px 5px;
+    }
+    .a4 .right span{
+        font-size: 2em;
+        margin: 0.5em;
+        padding: 0.2em;
+        border: 1px solid black;
+        border-radius: 50%;
+        color: black;
+    }
+    .a4 .right h3{
+        display: inline;
+        text-transform: uppercase;
+        padding: 5px;
+        border-bottom: solid 1px black;
+        width: 100%;
+    }
+    .a4 .right .workexp {
+        position: relative;
+    }
+    .a4 .right .workexp p:nth-child(1){
+        position: absolute;
+        left: 3em;
+        top: 4em;
+    }
+    .a4 .right .workexp p:nth-child(1)::before{
+        content: '任职期间参与该公司的web商城的开发测试工作';
+        position: absolute;
+        top: 1.5em;
+        font-size: 0.5em;
+        width: 100%;
+        color: dimgray;
+        display: flex;
+    }
+    .a4 .right .workexp p:nth-child(2){
+        position: absolute;
+        right: 0px;
+        top: 4em;
+    }
+    .a4 .right .skill{
+
+    }
+
+    .a4 .right .hobbys .list{
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+</style>
+</html>
