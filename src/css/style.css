@@ -1,0 +1,203 @@
+
+html,body{
+    background: #76a665;
+    height: 1800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+
+}
+.a4{
+    height: calc(297px*4);
+    width: calc(210px*4);
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.a4 .left{
+
+    height: 100%;
+    width: 45%;
+    position: relative;
+    overflow: hidden;
+}
+.a4 .left .info{
+    height: 30%;
+    --height: height;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+
+}
+.a4 .left .dec{
+    position: absolute;
+    top: 42%;
+    width: 90%;
+    height: 70%;
+
+
+    color: white;
+}
+.a4 .left .dec .bg{
+    position: absolute;
+    top: -10%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#1C1C1C,#2c2c2c);
+    border-radius: 10px;
+    transform: skewY(15deg);
+    z-index: 0;
+}
+.a4 .left .dec .content{
+    position: absolute;
+    top: -10%;
+    z-index: 100;
+    font-size: 12px;
+}
+.a4 .left .dec .content *{
+    padding: 5px;
+}
+.a4 .left .dec .content .myself span{
+    border-radius: 50%;
+    display: inline;
+    border: solid 1px white;
+
+}
+.a4 .left .dec .content .myself li{
+    margin: 1.5em;
+    list-style-type: none;
+}
+.a4 .left .dec .content .myself p{
+    display: inline;
+}
+.a4 .left .dec .content .myself ul li div{
+    height: 1em;
+    width: 100%;
+    border-radius: 2px;
+    border: solid 1px white;
+    position: relative;
+}
+.a4 .left .dec .content .myself ul li div::before{
+    content: attr(data-text);
+    position: absolute;
+    top: -2em;
+}
+.a4 .left .dec .content .myself ul li div::after{
+    position: absolute;
+    content: '';
+    height: 2em;
+    top: 0;
+    left: 0;
+
+    background: #fff;
+}
+.a4 .left .dec .content .myself ul li:nth-child(2) div::after{
+    width: 90%;
+}
+.a4 .left .dec .content .myself ul li:nth-child(3) div::after{
+    width: 75%;
+}
+.a4 .left .dec .content .myself ul li:nth-child(4) div::after{
+    width: 80%;
+}
+.a4 .left .dec .content .myself ul li:nth-child(5) div::after{
+    width: 60%;
+}
+.a4 .left .info *{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.a4 .left .info img{
+    margin-top: 5em;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.a4 .rightbox{
+    width: 55%;
+
+}
+.a4 .right{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding:1px;
+    color: skyblue;
+    /* background: #4c00ff;*/
+    margin-left: -25px;
+
+}
+.a4 .right *{
+    margin: 20px 5px 0 5px;
+    padding: 5px 5px;
+}
+.a4 .right span{
+    font-size: 2em;
+    margin: 0.5em;
+    padding: 0.2em;
+    border: 1px solid black;
+    border-radius: 50%;
+    color: black;
+}
+.a4 .right h3{
+    display: inline;
+    text-transform: uppercase;
+    padding: 5px;
+    border-bottom: solid 1px black;
+    width: 100%;
+}
+.a4 .right .workexp {
+    position: relative;
+
+}
+.a4 .right .workexp p{
+    position: absolute;
+    left: 3em;
+    top: 4em;
+    color: black;
+    width: calc(100% - 3em);
+}
+.a4 .right .workexp li p::before{
+    content: '任职期间参与该公司的web商城的开发测试工作,运营公司的官网及兼做公众号，发布公司的新闻，活动';
+    position: absolute;
+    top: 3em;
+    left: 1em;
+    font-size: 0.5em;
+    width: 100%;
+    color: dimgray;
+    display: flex;
+}
+.a4 .right .workexp li p::after{
+    content:'web前端工程师';
+    position: absolute;
+    right:1em;
+}
+.a4 .right .proxep li{
+    color: black;
+}
+.a4 .right .skill li{
+    color: black;
+}
+
+.a4 .right .hobbys .list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.next a{
+    text-decoration: none;
+}
+.next p{
+    text-align: center;
+    font-size: 3em;
+    color: dimgray;
+    margin: 1em;
+    font-family: "Adobe 繁黑體 Std B";
+
+}

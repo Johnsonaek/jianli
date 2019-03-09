@@ -64,7 +64,6 @@
                         <span class="iconfont icon-gongzuotai"></span><h3> 工作经验 work experience</h3>
                         <li>
                             <p>深圳天创息壤网络科技有限公司</p>
-                            <p>网页设计工程师</p>
                         </li>
                     </ul>
                 </div>
@@ -72,10 +71,33 @@
                     <ul>
                         <span class="iconfont icon-xiangmu"></span><h3> 项目经验 project experience</h3>
                         <li>
-                            <p>网上商城《通兑全城》</p>
+                                <div>
+                                    <ul>
+                                        <p>网上商城《通兑全城》</p>
+                                        <li>
+                                            <p>具体负责商品详情页的制作,通过将资源文件与HTML主体分离的方式使得代码更为简洁</p>
+                                        </li>
+                                        <li>
+                                            <p>在参与开发的过程中，我逐步学会了用webpack进行模块化开发，增强了与同事之间协调合作的能力</p>
+                                        </li>
+                                    </ul>
+                                </div>
                         </li>
                         <li>
-                            <p>通兑全城 后台</p>
+                            <div>
+                                <ul>
+                                    <p>《通兑全城》后台</p>
+                                    <li>
+                                        <p>监控后台各种异常数据，并提交到产品运营部</p>
+                                    </li>
+                                    <li>
+                                        <p>对接美工发布活动公告，商品特价</p>
+                                    </li>
+                                    <li>
+                                        <p>收集APP所产生的各种bug，确认无误后反馈给开发小组</p>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -83,16 +105,13 @@
                     <ul>
                         <span class="iconfont icon-gongju"></span><h3> 职业技能 work skills</h3>
                         <li>
-                            网页制作，熟悉Java，C#，Html，Js，Css，JQuery，Webpack，Ps等
+                            网页制作，熟悉Java，sass，Html，Js，Css，JQuery，Webpack，Ps等
                         </li>
                         <li>
-                            熟练掌握Sublime，Eclipse，Visual studio，Android studio等开发工具，及fiddler等调试工具
+                            熟练掌握webstorm，Eclipse，Android studio等开发工具，及fiddler等调试工具,以及项目管理工具github
                         </li>
                         <li>
-                            熟悉JQuery，React，EasyUI，Bootstrap等框架
-                        </li>
-                        <li>
-                            熟悉面向对象思想，了解封装，继承，多态。熟悉常用的设计模式，如单例模式，工厂模式等
+                            熟悉JQuery，vuejs，Bootstrap等框架
                         </li>
                     </ul>
                 </div>
@@ -109,211 +128,12 @@
                     </div>
                 </div>
                 <div class="next">
-                    <a href="./test.html"><p >下一页</p></a>
+                    <a href="model2.html"><p >下一页</p></a>
                 </div>
             </div>
         </div>
     </div>
 
 </body>
-
-<style>
-
-    html,body{
-        background: #76a665;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    *{
-
-    }
-    .a4{
-        height: calc(297px*4);
-        width: calc(210px*4);
-        background: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-    .a4 .left{
-
-        height: 100%;
-        width: 45%;
-        position: relative;
-        overflow: hidden;
-    }
-    .a4 .left .info{
-        height: 30%;
-        --height: height;
-
-        width: 100%;
-        display: flex;
-        flex-flow: wrap;
-
-    }
-    .a4 .left .dec{
-        position: absolute;
-        top: 42%;
-        width: 90%;
-        height: 70%;
-
-
-        color: white;
-    }
-    .a4 .left .dec .bg{
-        position: absolute;
-        top: -10%;
-        width: 100%;
-        height: 100%;
-        background: dimgray;
-        border-radius: 10px;
-        transform: skewY(15deg);
-        z-index: 0;
-    }
-    .a4 .left .dec .content{
-        position: absolute;
-        top: -10%;
-        z-index: 100;
-        font-size: 12px;
-    }
-    .a4 .left .dec .content *{
-        padding: 5px;
-    }
-    .a4 .left .dec .content .myself span{
-        border-radius: 50%;
-        display: inline;
-        border: solid 1px white;
-
-    }
-    .a4 .left .dec .content .myself li{
-        margin: 1.5em;
-        list-style-type: none;
-    }
-    .a4 .left .dec .content .myself p{
-        display: inline;
-    }
-    .a4 .left .dec .content .myself ul li div{
-        height: 1em;
-        width: 100%;
-        border-radius: 2px;
-        border: solid 1px white;
-        position: relative;
-    }
-    .a4 .left .dec .content .myself ul li div::before{
-        content: attr(data-text);
-        position: absolute;
-        top: -2em;
-    }
-    .a4 .left .dec .content .myself ul li div::after{
-        position: absolute;
-        content: '';
-        height: 2em;
-        top: 0;
-        left: 0;
-
-        background: #fff;
-    }
-    .a4 .left .dec .content .myself ul li:nth-child(2) div::after{
-        width: 90%;
-    }
-    .a4 .left .dec .content .myself ul li:nth-child(3) div::after{
-        width: 75%;
-    }
-    .a4 .left .dec .content .myself ul li:nth-child(4) div::after{
-        width: 80%;
-    }
-    .a4 .left .dec .content .myself ul li:nth-child(5) div::after{
-        width: 60%;
-    }
-    .a4 .left .info *{
-        width: 100%;
-        display: block;
-        margin: auto;
-        text-align: center;
-    }
-    .a4 .left .info img{
-        width: 160px;
-        height: 160px;
-        border-radius: 50%;
-    }
-    .a4 .rightbox{
-        width: 55%;
-    }
-    .a4 .right{
-
-        height: 100%;
-        width: 100%;
-        padding: 5px;
-        color: skyblue;
-       /* background: #4c00ff;*/
-        margin-left: -25px;
-
-    }
-    .a4 .right *{
-        margin: 20px 5px 0 5px;
-        padding: 5px 5px;
-    }
-    .a4 .right span{
-        font-size: 2em;
-        margin: 0.5em;
-        padding: 0.2em;
-        border: 1px solid black;
-        border-radius: 50%;
-        color: black;
-    }
-    .a4 .right h3{
-        display: inline;
-        text-transform: uppercase;
-        padding: 5px;
-        border-bottom: solid 1px black;
-        width: 100%;
-    }
-    .a4 .right .workexp {
-        position: relative;
-    }
-    .a4 .right .workexp p:nth-child(1){
-        position: absolute;
-        left: 3em;
-        top: 4em;
-    }
-    .a4 .right .workexp p:nth-child(1)::before{
-        content: '任职期间参与该公司的web商城的开发测试工作';
-        position: absolute;
-        top: 1.5em;
-        font-size: 0.5em;
-        width: 100%;
-        color: dimgray;
-        display: flex;
-    }
-    .a4 .right .workexp p:nth-child(2){
-        position: absolute;
-        right: 0px;
-        top: 4em;
-    }
-    .a4 .right .skill{
-
-    }
-
-    .a4 .right .hobbys .list{
-        display: flex;
-
-        align-items: center;
-        justify-content: center;
-    }
-    .next a{
-        text-decoration: none;
-    }
-    .next p{
-        text-align: center;
-        font-size: 3em;
-        color: dimgray;
-        margin: 1em;
-        font-family: "Adobe 繁黑體 Std B";
-
-    }
-
-</style>
+<link rel="stylesheet" href="./src/css/style.css">
 </html>
