@@ -178,8 +178,13 @@ html,body{
     position: absolute;
     right:1em;
 }
+.a4 .right .proxep{
+
+}
 .a4 .right .proxep li{
     color: black;
+    list-style-type: none;
+    margin: auto;
 }
 .a4 .right .skill li{
     color: black;
