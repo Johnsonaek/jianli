@@ -154,6 +154,8 @@ html,body{
 }
 .a4 .right .workexp {
     position: relative;
+    font-size: 16px;
+    font-weight: bold;
 
 }
 .a4 .right .workexp p:nth-child(1){
@@ -196,6 +198,7 @@ html,body{
     display: flex;
 }
 .a4 .right .proxep{
+    font-size: 16px;
 
  }
 .a4 .right .proxep li ul li h3{
@@ -206,6 +209,12 @@ html,body{
     list-style-type: none;
     margin: auto;
 }
+.a4 .right .proxep li div{
+    margin: 0 auto;
+}
+.a4 .right .proxep li div ul{
+    margin: 0 auto;
+}
 .a4 .right .skill li{
     color: black;
 }
@@ -215,14 +224,17 @@ html,body{
     align-items: center;
     justify-content: center;
 }
-.next a{
-    text-decoration: none;
+.a4 .right .next{
+    margin: 0 auto;
 }
-.next p{
+.next a{
+    text-decoration: none;;
+}
+.a4 .right .next p{
     text-align: center;
     font-size: 3em;
-    color: dimgray;
-    margin: 1em;
+    color: skyblue;
+    margin: 0 auto;
     font-family: "Adobe 繁黑體 Std B";
 
 }
