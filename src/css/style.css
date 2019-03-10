@@ -156,14 +156,21 @@ html,body{
     position: relative;
 
 }
-.a4 .right .workexp p{
+.a4 .right .workexp p:nth-child(1){
     position: absolute;
     left: 3em;
     top: 4em;
     color: black;
     width: calc(100% - 3em);
 }
-.a4 .right .workexp li p::before{
+.a4 .right .workexp p:nth-child(2){
+    position: absolute;
+    left: 3em;
+    top: 9em;
+    color: black;
+    width: calc(100% - 3em);
+}
+.a4 .right .workexp li p:nth-child(1)::before{
     content: '任职期间参与该公司的web商城的开发测试工作,运营公司的官网及兼做公众号，发布公司的新闻，活动';
     position: absolute;
     top: 3em;
@@ -173,13 +180,26 @@ html,body{
     color: dimgray;
     display: flex;
 }
-.a4 .right .workexp li p::after{
+.a4 .right .workexp li p:nth-child(1)::after{
     content:'web前端工程师';
     position: absolute;
     right:1em;
 }
+.a4 .right .workexp li p:nth-child(2)::before{
+    content: '任职期间参与该公司的网站的web页面开发';
+    position: absolute;
+    top: 3em;
+    left: 1em;
+    font-size: 0.5em;
+    width: 100%;
+    color: dimgray;
+    display: flex;
+}
 .a4 .right .proxep{
 
+ }
+.a4 .right .proxep li ul li h3{
+    border: transparent;
 }
 .a4 .right .proxep li{
     color: black;
